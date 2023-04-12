@@ -41,7 +41,7 @@ Let's make the plot easier to read
 .. code-block:: python3
     :linenos:
 
-    plt.plot(x, np.sin(x), 'r-o', x, np.sin(2*x), 'g--'
+    plt.plot(x, np.sin(x), 'r-o', x, np.sin(2*x), 'g--')
     plt.savefig('my_sinwavex2a.png')
     plt.show()
     
